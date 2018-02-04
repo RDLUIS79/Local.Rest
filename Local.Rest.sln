@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Local.Rest.ModelDTO", "Local.Rest.ModelDTO\Local.Rest.ModelDTO.csproj", "{502D325D-DA4D-4840-A321-4A69644E3797}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{CF39EEF0-828E-4E46-8F9B-F4D0905A5AA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servicios", "Servicios", "{B608CB45-FCC0-4F2D-A081-6105863B048B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{9501A8C7-BCAE-4501-92C7-D976720686AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Local.Rest.ServiceRest", "Local.Rest.ServiceRest\Local.Rest.ServiceRest.csproj", "{6A4035E0-DEE3-4A79-AD7E-79DC4E5C8A0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Local.Rest.ApiSoap", "Local.Rest.ApiSoap12\Local.Rest.ApiSoap.csproj", "{A171F117-3963-44FD-A31A-CF98F568E36A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{41BE7CCB-9537-40EA-AF9C-1B2F81A09566}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Local.Rest.Shared", "Local.Rest.Shared\Local.Rest.Shared.csproj", "{CFC37F22-21F3-48B0-BC0A-0CF9BB99EF9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Local.Rest.ApiRest", "Local.Rest.ApiRest\Local.Rest.ApiRest.csproj", "{8E96417D-48F9-47E9-8CD5-C6B501936606}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{46BE8B4A-403A-491C-A9D8-8695928F2BF6}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.txt = Readme.txt
+		..\BBDD\TestRest\testRest.bkp = ..\BBDD\TestRest\testRest.bkp
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{502D325D-DA4D-4840-A321-4A69644E3797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{502D325D-DA4D-4840-A321-4A69644E3797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{502D325D-DA4D-4840-A321-4A69644E3797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{502D325D-DA4D-4840-A321-4A69644E3797}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A4035E0-DEE3-4A79-AD7E-79DC4E5C8A0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A4035E0-DEE3-4A79-AD7E-79DC4E5C8A0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A4035E0-DEE3-4A79-AD7E-79DC4E5C8A0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A4035E0-DEE3-4A79-AD7E-79DC4E5C8A0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A171F117-3963-44FD-A31A-CF98F568E36A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A171F117-3963-44FD-A31A-CF98F568E36A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A171F117-3963-44FD-A31A-CF98F568E36A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A171F117-3963-44FD-A31A-CF98F568E36A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFC37F22-21F3-48B0-BC0A-0CF9BB99EF9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFC37F22-21F3-48B0-BC0A-0CF9BB99EF9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFC37F22-21F3-48B0-BC0A-0CF9BB99EF9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFC37F22-21F3-48B0-BC0A-0CF9BB99EF9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E96417D-48F9-47E9-8CD5-C6B501936606}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E96417D-48F9-47E9-8CD5-C6B501936606}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E96417D-48F9-47E9-8CD5-C6B501936606}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E96417D-48F9-47E9-8CD5-C6B501936606}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{502D325D-DA4D-4840-A321-4A69644E3797} = {9501A8C7-BCAE-4501-92C7-D976720686AE}
+		{6A4035E0-DEE3-4A79-AD7E-79DC4E5C8A0A} = {B608CB45-FCC0-4F2D-A081-6105863B048B}
+		{A171F117-3963-44FD-A31A-CF98F568E36A} = {CF39EEF0-828E-4E46-8F9B-F4D0905A5AA1}
+		{CFC37F22-21F3-48B0-BC0A-0CF9BB99EF9B} = {41BE7CCB-9537-40EA-AF9C-1B2F81A09566}
+		{8E96417D-48F9-47E9-8CD5-C6B501936606} = {CF39EEF0-828E-4E46-8F9B-F4D0905A5AA1}
+	EndGlobalSection
+EndGlobal

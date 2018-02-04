@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5f64a08eb82447d4851a225b882fdb69" Name="Diagram1" >
+        <EntityTypeShape EntityType="modelModel.PLATOS" Width="1.5" PointX="0.5" PointY="1" />
+        <EntityTypeShape EntityType="modelModel.ALERGENOS" Width="1.5" PointX="3.75" PointY="0.75" />
+        <EntityTypeShape EntityType="modelModel.INGREDIENTES" Width="1.5" PointX="0.75" PointY="3.75" />
+        <EntityTypeShape EntityType="modelModel.PLATOS_ING" Width="1.5" PointX="2.75" PointY="3.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
